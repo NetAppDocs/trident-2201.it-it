@@ -88,7 +88,7 @@ Eseguire i passaggi elencati per implementare manualmente l'operatore Trident.
 
 === Fase 1: Qualificare il cluster Kubernetes
 
-La prima cosa da fare è accedere all'host Linux e verificare che stia gestendo un link:requirements.html["Cluster Kubernetes supportato"^] disporre dei privilegi necessari per.
+La prima cosa da fare è accedere all'host Linux e verificare che stia gestendo un link:../trident-get-started/requirements.html["Cluster Kubernetes supportato"^] disporre dei privilegi necessari per.
 
 
 NOTE: Con OpenShift, utilizzare `oc` invece di `kubectl` in tutti gli esempi che seguono, accedere come *system:admin* eseguendo `oc login -u system:admin` oppure `oc login -u kube-admin`.

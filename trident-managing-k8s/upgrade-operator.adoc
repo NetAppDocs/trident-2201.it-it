@@ -20,7 +20,7 @@ Per eseguire l'aggiornamento utilizzando l'operatore, devono essere soddisfatte 
 * È necessario disporre di un'installazione di Trident basata su CRD. Questo rappresenta tutte le release della versione 19.07 e successive. Se si dispone di un'installazione basata su CSI, è molto probabile che si disponga di un'installazione basata su CRD.
 * Se CSI Trident è stato disinstallato e i metadati dell'installazione persistono, è possibile eseguire l'aggiornamento utilizzando l'operatore.
 * Deve esistere una sola installazione Astra Trident in tutti gli spazi dei nomi di un determinato cluster Kubernetes.
-* Si dovrebbe utilizzare un cluster Kubernetes in esecuzione link:requirements.html["versione 1.17 e successive"^].
+* Si dovrebbe utilizzare un cluster Kubernetes in esecuzione  link:../trident-get-started/requirements.html["versione 1.17 e successive"^].
 * Se sono presenti CRD Alpha Snapshot, rimuoverli con `tridentctl obliviate alpha-snapshot-crd`. In questo modo vengono eliminati i CRD per le specifiche di snapshot alfa. Per gli snapshot esistenti che devono essere cancellati/migrati, vedere https://netapp.io/2020/01/30/alpha-to-beta-snapshots/["questo blog"^].
 
 

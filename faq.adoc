@@ -67,7 +67,7 @@ Astra Trident non ha più bisogno di un `etcd`. Utilizza i CRD per mantenere lo 
 
 === Astra Trident supporta un'installazione offline da un registro privato?
 
-Sì, Astra Trident può essere installato offline. Vedere link:https://docs.netapp.com/us-en/trident/trident-get-started/kubernetes-deploy.html["qui"].
+Sì, Astra Trident può essere installato offline. Vedere link:trident-get-started/kubernetes-deploy.html["qui"].
 
 
 
@@ -91,13 +91,13 @@ Astra Trident legge dal Kubernetes API Server per determinare quando le applicaz
 
 === Quali sono i ruoli e i privilegi utilizzati da Astra Trident?
 
-Il programma di installazione di Trident crea Kubernetes ClusterRole, che ha accesso specifico alle risorse PersistentVolume, PersistentVolumeClaim, StorageClass e Secret del cluster Kubernetes. Vedere link:https://docs.netapp.com/us-en/trident/trident-get-started/kubernetes-customize-deploy-tridentctl.html["qui"].
+Il programma di installazione di Trident crea Kubernetes ClusterRole, che ha accesso specifico alle risorse PersistentVolume, PersistentVolumeClaim, StorageClass e Secret del cluster Kubernetes. Vedere link:trident-get-started/kubernetes-customize-deploy-tridentctl.html["qui"].
 
 
 
 === È possibile generare localmente i file manifest utilizzati da Astra Trident per l'installazione?
 
-È possibile generare e modificare localmente i file manifest utilizzati da Astra Trident per l'installazione, se necessario. Vedere link:https://docs.netapp.com/us-en/trident/trident-get-started/kubernetes-customize-deploy-tridentctl.html["qui"].
+È possibile generare e modificare localmente i file manifest utilizzati da Astra Trident per l'installazione, se necessario. Vedere link:trident-get-started/kubernetes-customize-deploy-tridentctl.html["qui"].
 
 
 
@@ -199,7 +199,7 @@ NetApp supporta l'aggiornamento di Astra Trident da una release principale alla 
 
 === È possibile eseguire il downgrade di Trident a una release precedente?
 
-Se si desidera eseguire il downgrade, è necessario valutare diversi fattori. Vedere link:https://docs.netapp.com/us-en/trident/trident-managing-k8s/downgrade-trident.html["la sezione sul downgrade"].
+Se si desidera eseguire il downgrade, è necessario valutare diversi fattori. Vedere link:trident-managing-k8s/downgrade-trident.html["la sezione sul downgrade"].
 
 
 
