@@ -951,13 +951,6 @@
   <block id="a62e37b5d24190e57c50856ed67d1f30" category="paragraph">Puoi verificare se l'installazione di Astra Trident è stata completata dando un'occhiata ai pod creati:</block>
   <block id="cb61ddc6afc630830f76a754c29c509e" category="paragraph">È anche possibile utilizzare<block ref="c67fd1b99934afa248dfeb285a9a4191" prefix=" " category="inline-code"></block> Per verificare la versione di Astra Trident installata.</block>
   <block id="017115d0fb78b96eca56297dcaae750a" category="paragraph">Ora puoi continuare a creare un back-end. Vedere <block ref="6bfdfe984198635473da869595980b46" category="inline-link-macro-rx"></block>.</block>
-  <block id="34c4dac14496e9c45d92f345d9392fc8" category="summary">La documentazione relativa alle release precedenti di Astra Trident è disponibile nel caso in cui non si utilizzi la versione più recente.</block>
-  <block id="ba09ee47d11962c1ccd13d7e1f10e6c5" category="doc">Versioni precedenti della documentazione</block>
-  <block id="b0f4f0ac7ea6be4c3047dd422c23539b" category="paragraph">Se non si utilizza Astra Trident 22.01, è disponibile la documentazione relativa alle release precedenti.</block>
-  <block id="cce172403b73af5c2a4e93081affcc7f" category="inline-link">Astra Trident 21.10</block>
-  <block id="606b9e83fb467a43b3065d4fd5037094" category="list-text"><block ref="606b9e83fb467a43b3065d4fd5037094" category="inline-link-rx"></block></block>
-  <block id="a93e9e44b7a375a4236260f5ff2b251e" category="inline-link">Astra Trident 21.07</block>
-  <block id="3830d427e146a8a64454dc373d9b1502" category="list-text"><block ref="3830d427e146a8a64454dc373d9b1502" category="inline-link-rx"></block></block>
   <block id="5ee08ab883e000ce6b739dbb0b6ff376" category="summary">Scopri di più sulle parti del sistema Kubernetes.</block>
   <block id="607ae6360b32f1bd6e559e915d414fab" category="doc">Concetti di Kubernetes</block>
   <block id="d60f0fff1c23a02458849862f593357e" category="inline-link">Sistema Kubernetes</block>
@@ -1504,8 +1497,6 @@
   <block id="2e6ce374ac42de81aea6a3d682b92e33" category="paragraph">Le Note di rilascio forniscono informazioni su nuove funzionalità, miglioramenti e correzioni di bug nell'ultima versione di Astra Trident.</block>
   <block id="e4c4d344a524d21b898e4d04b6539aa7" category="admonition">Il<block ref="c67fd1b99934afa248dfeb285a9a4191" prefix=" " category="inline-code"></block> Il file binario per Linux fornito nel file zip del programma di installazione è la versione testata e supportata. Tenere presente che il<block ref="43b9d8ea18c48c3a64c4e37338fc668f" prefix=" " category="inline-code"></block> binario fornito in<block ref="1e6add150fa42ebd470891f1547d31f0" prefix=" " category="inline-code"></block> parte del file zip non è testata o supportata.</block>
   <block id="b19b27d714b3d37b8bba665236cb96c0" category="section-title">Novità del 22.01.1</block>
-  <block id="368b120a3b5f53a49dc3ab96ec9b8dbd" category="paragraph">NetApp continua a migliorare e migliorare i propri prodotti e servizi. Ecco alcune delle funzionalità più recenti di Astra Trident. Per le release precedenti, vedere<block ref="25da125dffad1d6323c21354bccf0203" category="inline-link-rx"></block>.</block>
-  <block id="7072ec708b0ea7e3243747d8b79c0d20" category="admonition">Se si esegue l'aggiornamento da una release precedente di Trident e si utilizza Azure NetApp Files, il <block ref="d5189de027922f81005951e6efe0efd5" prefix="" category="inline-code"></block> il parametro di configurazione è ora un campo singleton obbligatorio.</block>
   <block id="41cf959adc98386b54829d71a6ed5d37" category="section-title">Correzioni</block>
   <block id="a98b2ebbcbb381d3abc81e2ecfb2054c" category="inline-link-macro">Numero GitHub 691</block>
   <block id="61465c1d4383dd4afdf168925e15e767" category="list-text">Risolto il problema di annullamento della pubblicazione dei volumi sui nodi cancellati. (<block ref="5fee6ab43e8008edba54375694a29266" category="inline-link-macro-rx"></block>)</block>
@@ -3032,7 +3023,6 @@
   <block id="0172b29a9f5d94dc62ee592a98183f3b" category="paragraph">È possibile consultare il copyright e le licenze di terze parti utilizzate nel software NetApp per Astra Trident nel file degli avvisi per ciascuna release all'indirizzo<block ref="4a3c8c5a408c6db1c44c04391a8a0a2f" category="inline-link-rx"></block>.</block>
   <block id="d327e8f24b63b83e091dccdc48dd7b1b" category="sidebar">Documentazione di Astra Trident</block>
   <block id="7d0ee6fed10d3d4e5c9ee496729ab519" category="sidebar">Note di rilascio</block>
-  <block id="93168a8084b3e838d2932c4734bd234e" category="sidebar">Versioni precedenti</block>
   <block id="eb1f347fa6176ae2c9175df3bc414954" category="sidebar">Utilizzare Astra Trident</block>
   <block id="0460583622f03a52d7693094d6fa2452" category="sidebar">Concetti</block>
   <block id="f14894e4c400a400c02367258a93029a" category="sidebar">Astra Trident per Docker</block>
@@ -3070,4 +3060,5 @@ Per ulteriori informazioni, vedere <block ref="139a59f2208174d2bf825b80dc580275"
   <block id="f8b52d963f246a75dc6c8b78c954a4fd" category="list-text"><block ref="f8b52d963f246a75dc6c8b78c954a4fd" category="inline-link-rx"></block></block>
   <block id="b6780b7b2561935ff862fe7126cde751" category="list-text"><block ref="b6780b7b2561935ff862fe7126cde751" category="inline-link-rx"></block></block>
   <block id="b9a641d903e611a87a5e68ac7fdb0b84" category="list-text">Trident AutoSupport non raccoglie né trasmette dati personali o di identificazione personale (PII). Viene fornito con un<block ref="173a360b412944768c2ab13e6c8fd1c7" category="inline-link-rx"></block> che non è applicabile all'immagine contenitore Trident stessa. Puoi saperne di più sull'impegno di NetApp nei confronti della sicurezza e della fiducia dei dati<block ref="d3cc55401bc8303e01c6b0c43ba0733f" category="inline-link-rx"></block>.</block>
+  <block id="9bbe247417ec112bd7f3be36a4035717" category="paragraph">NetApp continua a migliorare e migliorare i propri prodotti e servizi. Ecco alcune delle funzionalità più recenti di Astra Trident.</block>
 </blocks>
